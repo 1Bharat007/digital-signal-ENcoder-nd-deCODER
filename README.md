@@ -53,6 +53,10 @@ python main.py
 - `analog_modulation.py`: PCM and Delta Modulation
 - `main.py`: interactive application
 
+## Collaborated Project
+- Bharat Bushan
+- Rakesh Choudhary
+
 ## Acknowledgement
 
 The submitted report should acknowledge any AI assistance, online references or discussions used, as required by the course assignment. Add the specific references consulted by your group.
