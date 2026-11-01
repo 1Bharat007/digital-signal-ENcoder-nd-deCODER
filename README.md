@@ -53,7 +53,7 @@ python main.py
 - `analog_modulation.py`: PCM and Delta Modulation
 - `main.py`: interactive application
 
-## Collaborated Project
+## Members Associated
 - Bharat Bushan
 - Rakesh Choudhary
 
