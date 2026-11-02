@@ -52,10 +52,11 @@ def show_line_signal(signal, bit_count, title):
     plt.tight_layout()
     plt.show()
 
+# ---------------here-----------------
 
 def main():
-    print("=== DIGITAL SIGNAL ENCODER AND DECODER ===")
-    print("1. Digital input (generate bits)")
+    print("Welcome to Digital nCoder and dCoder:")
+    print("1.a
     print("2. Analog input (PCM or Delta Modulation)")
     input_type = input("Choose input type: ").strip()
 
@@ -142,10 +143,12 @@ def main():
     if answer == "y":
         recovered_bits = decoder(signal)
         print("Decoded bitstream:", "".join(map(str, recovered_bits)))
+        # here  the int is being converted into char , so it can be used as a string .
         print("Original matches decoded:", recovered_bits == bits)
 
         if analog_mode and recovered_bits == bits:
             if analog_method == "PCM":
+                
                 final_reconstruction = pcm_decode(
                     recovered_bits,
                     analog_metadata["bits_per_sample"],

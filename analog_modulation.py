@@ -1,4 +1,6 @@
 """Simple PCM and Delta Modulation encoders and decoders."""
+
+# this file implements from analog to digital signals.
 import math
 
 
